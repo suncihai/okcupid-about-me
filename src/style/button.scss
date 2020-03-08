@@ -1,0 +1,20 @@
+$padding: 5px 15px;
+$green: #22d57e;
+$white: #ffffff;
+$width: 150px;
+
+.button {
+   padding: $padding;
+   width: $width;
+   border-radius: 4px;
+   text-align: center;
+   cursor: pointer;
+   display: none;
+   &.submit {
+	  background: $green;
+	  color: $white;
+   }
+   &.show {
+      display: block;
+   }
+}

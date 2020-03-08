@@ -1,0 +1,16 @@
+$border-radius: 2px;
+$padding: 5px;
+$color: #6c768a;
+$background: #ffffff;
+
+.textarea{
+   background: $background;
+   border-radius: $border-radius;
+   padding: $padding;
+   color: $color;
+   width: 100%;
+   min-height: 250px;
+   resize: none;
+   box-sizing: border-box;
+   border:1px solid $background;
+}
