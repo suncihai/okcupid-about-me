@@ -16,12 +16,6 @@ p {
 	padding: 0;
 }
 
-a {
-	&:hover {
-		cursor: pointer;
-	}
-}
-
 .matchArea {
    background: $background;
    height: calc(94vh - 50px);
