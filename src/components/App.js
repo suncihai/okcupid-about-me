@@ -94,6 +94,7 @@ class App extends Component {
                <Row className="text-col">
                   <Label bold className="dark-gray-m" block mb>Your essay text</Label>
                   <Row className="text-container">
+                        {/* after split('_'), format like ['Origin from','#Narnia',...] # indicates bold font*/}
                         {this.props.essayText.split('_').map((text, index) => {
                            let next = this.props.essayText.split('_')[index+1];
                            if(text[0] !== '#') {

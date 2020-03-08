@@ -86,7 +86,7 @@ function generateEssay(essayMap, editMap, answers, answer, getTextTemplates) {
    let texts = getTextTemplates(answer);
    let sample = getSample(texts);
    let edit = sample;
-   sample = sample.replace('$answer', `_#${answers[answer]}_`)   //put # to mark bold
+   sample = sample.replace('$answer', `_#${answers[answer]}_`)   //put # to mark bold, put _ for split bold fonts from normal
    edit = edit.replace('$answer', answers[answer]) 
 
    essayMap.set(answer, sample);
